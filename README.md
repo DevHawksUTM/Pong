@@ -24,5 +24,5 @@ Player 1 can also boost their paddle speed by holding `left-alt` or `left-ctrl`
 Player 2 (right) moves their paddle up using `\` & down using `'`<br>
 Player 2 can also boost their paddle speed by holding `right-alt` or `right-ctrl`
 
-*Made by Josiah Tripp*
+*Made by Josiah Tripp*<br>
 *UTM Dev Hawks*
