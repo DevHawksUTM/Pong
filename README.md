@@ -19,10 +19,10 @@ To delete the object files made in the process: `make clean`
 Each player has one side of the keyboard.
 
 Player 1 (left) moves their paddle up using `Q` & down using `S`
-Player 1 can also boost their paddle speed by holding `left-alt`
+Player 1 can also boost their paddle speed by holding `left-alt` or `left-ctrl`
 
 Player 2 (right) moves their paddle up using `\` & down using `'`
-Player 2 can also boost their paddle speed by holding `left-ctrl`
+Player 2 can also boost their paddle speed by holding `right-alt` or `right-ctrl`
 
 *Made by Josiah Tripp*
 *UTM Dev Hawks*
