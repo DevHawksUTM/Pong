@@ -1,35 +1,28 @@
-# Raylib-linux-template-1
+# Pong
 
-This repository serves as a simple template for the raylib graphics library.
-The primary goal of this template is to be self contained, meaning that the
-number of dependencies for compilation has been minizmized.
+This repository is pretty self explanatory. It's pong...but really bad.
 
-The example program is written in c++ & includes a single main file and a simple makefile that
-compiles & links statically to the raylib library.
-To use a template that utilizes multiple source & header files, please navigate to the 
-[2nd Raylib-linux-template](https://github.com/DevHawksUTM/Raylib-linux-template-2)
+There's no menu, tutorial, internal instructions, or even an end to the game.
 
-## Raylib Library
+## Compiling Pong
 
-This repository contains the required header & object files needed
-to compile your program with raylib. Raylib provides an easy way to 
-incorporate graphics, sound, and user input into your programs.
+To compile Pong: `make`
 
-*Files included from raylib v5.0 release*
-Source Repository: https://github.com/raysan5/raylib
+Then, to run Pong: `./pong`
 
-## Install OpenGL
+Alternatively, you can compile & run pong in one command: `make run`
 
-Raylib requires the opengl library to link properly
+To delete the object files made in the process: `make clean`
 
-To install on linux: `sudo apt-get install mesa-utils`
+## Controls
 
-## Compiling
+Each player has one side of the keyboard.
 
-To compile the program: `make`
+Player 1 (left) moves their paddle up using `Q` & down using `S`
+Player 1 can also boost their paddle speed by holding `left-alt`
 
-Then, to run the program: `./program`
+Player 2 (right) moves their paddle up using `\` & down using `'`
+Player 2 can also boost their paddle speed by holding `left-ctrl`
 
-If you wish to compile & then immediately run your program: `make run`
-
-To clean up the workspace (objects & binary): `make clean`
+*Made by Josiah Tripp*
+*UTM Dev Hawks*
